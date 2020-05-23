@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pacienteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paciente"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/edadText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edad"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/TextViewPrblema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Problema"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/TextViewCama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cama"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_gravity="center_vertical"/>
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+        
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#222222"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
